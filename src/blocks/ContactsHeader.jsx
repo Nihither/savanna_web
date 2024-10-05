@@ -1,4 +1,5 @@
-import {BsEnvelope, BsGeo, BsInstagram, BsTelegram, BsTelephone} from "react-icons/bs";
+import {BsGeo} from "react-icons/bs";
+import {FaInstagram, FaVk, FaRegEnvelope, FaPhoneAlt} from "react-icons/fa";
 
 
 function ContactsHeader() {
@@ -14,13 +15,13 @@ function ContactsHeader() {
           </li>
           <li className="nav-item">
             <a href="tel:+7 (931) 227 6136" className="nav-link text-light">
-              <BsTelephone/>
+              <FaPhoneAlt/>
               <span className="ms-1">+7 (931) 227 6136</span>
             </a>
           </li>
           <li className="nav-item">
             <a href="mailto:savvannaabc@gamail.com" className="nav-link text-light">
-              <BsEnvelope/>
+              <FaRegEnvelope/>
               <span className="ms-1">savvannaabc@gmail.com</span>
             </a>
           </li>
@@ -28,12 +29,12 @@ function ContactsHeader() {
         <ul className="nav">
           <li className="nav-item">
             <a className="nav-link text-light">
-              <BsTelegram/>
+              <FaVk/>
             </a>
           </li>
           <li className="nav-item">
             <a className="nav-link text-light">
-              <BsInstagram/>
+              <FaInstagram/>
             </a>
           </li>
         </ul>
