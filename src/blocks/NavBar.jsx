@@ -1,4 +1,4 @@
-import abcity_logo from '../assets/abcity_logo.svg'
+// import abcity_logo from '../assets/abcity_logo.svg'
 import savanna_logo from '../assets/savanna_logo.svg'
 
 
