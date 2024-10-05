@@ -4,10 +4,10 @@
 function Footer() {
   return (
     <footer className="footer">
-      <div className="container py-2">
+      <div className="container py-3 border-top">
         <div className="row">
           <div className="col-12">
-            <h6 className="text-center">Savanna ABC</h6>
+            <p className="text-center">Savanna ABC</p>
           </div>
         </div>
       </div>
