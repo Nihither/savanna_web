@@ -3,7 +3,7 @@ import cert_image from '../assets/certificate.jpg'
 
 function CertBanner() {
   return (
-    <div className="container">
+    <div className="container py-5">
       <div className="d-flex flex-column">
         <div className="row">
           <div className="col-md-3"></div>
@@ -12,11 +12,14 @@ function CertBanner() {
           </div>
           <div className="col-md-3"></div>
         </div>
-        <div className="d-flex flex-column justify-content-center align-items-center">
-          <h2 className="text-center">Дарите знания</h2>
-          <p className="text-center">С недавних пор в Savanna ABC появились сертификаты на обучение.</p>
-          <p className="text-center">Теперь вы можете подарить вашим близким по-настоящему бесценный подарок — знания.</p>
-          <p className="text-center">Сертификат можно приобрести на любую сумму.</p>
+        <div className="vstack gap-4 justify-content-center align-items-center">
+          <h1 className="display-4 text-center pt-5">Дарите знания</h1>
+          <div className="">
+            <p className="text-center">С недавних пор в Savanna ABC появились сертификаты на обучение.</p>
+            <p className="text-center">Теперь вы можете подарить вашим близким по-настоящему бесценный подарок —
+              знания.</p>
+            <small className="text-center">Сертификат можно приобрести на любую сумму.</small>
+          </div>
           <button className="btn btn-info">Приобрести сертификат</button>
         </div>
       </div>
