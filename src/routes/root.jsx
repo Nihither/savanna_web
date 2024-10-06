@@ -6,6 +6,7 @@ import CertBanner from "../blocks/CertBanner.jsx"
 import Footer from "../blocks/Footer.jsx";
 import ContactUs from "../blocks/ContactUs.jsx";
 import Stuff from "../blocks/Stuff.jsx";
+import ChooseSavanna from "../blocks/ChooseSavanna.jsx";
 
 
 function Root () {
@@ -17,6 +18,7 @@ function Root () {
       <FirstLessonBanner/>
       <CertBanner/>
       <div className="vh-100 bg-dark"></div>
+      <ChooseSavanna/>
       <Stuff/>
       <ContactUs/>
       <Footer/>
