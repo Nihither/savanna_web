@@ -3,7 +3,7 @@ import cert_image from '../assets/certificate.jpg'
 
 function CertBanner() {
   return (
-    <div className="container-fluid bg-light">
+    <div className="cert-banner container-fluid bg-light">
       <div className="container py-5">
         <div className="d-flex flex-column">
           <div className="row">

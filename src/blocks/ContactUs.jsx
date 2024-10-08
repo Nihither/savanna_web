@@ -5,7 +5,7 @@ import ContactForm from './elements/ContactForm.jsx'
 
 function ContactUs() {
   return (
-    <div className="container-fluid bg-light">
+    <div className="contact-us container-fluid bg-light">
       <div className="container py-5">
         <div className="row gx-5">
           <div className="col-lg-6 mb-3 mb-lg-0">

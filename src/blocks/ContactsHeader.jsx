@@ -4,7 +4,7 @@ import {FaInstagram, FaVk, FaRegEnvelope, FaPhoneAlt} from "react-icons/fa";
 
 function ContactsHeader() {
   return (
-    <div className="container-fluid bg-dark d-none d-lg-block">
+    <div className="contact-header container-fluid bg-dark d-none d-lg-block">
       <div className="container d-flex justify-content-between">
         <ul className="nav">
           <li className="nav-item">

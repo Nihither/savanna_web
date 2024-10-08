@@ -3,7 +3,7 @@
 
 function FirstLessonBanner() {
   return (
-    <div className="container-fluid bg-light">
+    <div className="first-lesson-banner container-fluid bg-light">
       <div className="container d-flex py-4">
         <div className="row gap-4">
           <div className="col-lg-9 d-flex align-items-center">
