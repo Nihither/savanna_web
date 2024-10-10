@@ -1,10 +1,10 @@
-// import abcity_logo from '../assets/abcity_logo.svg'
+import abcity_logo from '../assets/abcity_logo.svg'
 import savanna_logo from '../assets/savanna_logo.svg'
 
 
 function NavBar() {
   return (
-  <nav className="navbar navbar-expand-lg bg-light sticky-top">
+  <nav className="navbar navbar-expand-lg bg-light sticky-top border-bottom border-1 border-dark-subtle">
     <div className="container">
       <a className="navbar-brand" href="#">
         <img src={savanna_logo} alt="Savanna Logo" height="70"/>
@@ -15,7 +15,12 @@ function NavBar() {
         <span className="navbar-toggler-icon"></span>
       </button>
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+          <ul className="navbar-nav ms-auto align-items-center">
+            <li className="nav-item">
+              <a className="nav-link" href="#">
+                <img src={abcity_logo} alt="ABCity Logo" height="70"/>
+              </a>
+            </li>
             <li className="nav-item">
               <a className="nav-link" href="#">Детям</a>
             </li>
