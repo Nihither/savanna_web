@@ -28,12 +28,12 @@ function ContactsHeader() {
         </ul>
         <ul className="nav">
           <li className="nav-item">
-            <a className="nav-link text-light">
+            <a href="https://vk.com/savanna_abc" target="_blank" className="nav-link text-light">
               <FaVk/>
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link text-light">
+            <a href="https://www.instagram.com/savanna_abc" target="_blank" className="nav-link text-light">
               <FaInstagram/>
             </a>
           </li>
