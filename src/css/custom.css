@@ -1,0 +1,7 @@
+/*Social Networks block*/
+.social-networks {
+  background-image: url("src/assets/social_network_bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}

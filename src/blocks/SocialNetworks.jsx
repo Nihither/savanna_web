@@ -4,10 +4,7 @@ import {FaInstagram, FaVk} from "react-icons/fa6";
 
 function SocialNetworks() {
   return (
-    <div className="social-networks container-fluid p-0"
-         style={{ backgroundImage: `url(${social_network_bg})`, backgroundRepeat: "no-repeat",
-           backgroundSize: "cover", backgroundAttachment: "fixed"
-         }}>
+    <div className="social-networks container-fluid p-0">
       <div className="container-fluid bg-opacity-50 bg-dark py-5">
         <div className="container">
           <div className="row">
