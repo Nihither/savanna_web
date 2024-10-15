@@ -1,3 +1,19 @@
+/*Hero block*/
+.hero {
+  background-image: url("src/assets/hero_bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.hero .content-block {
+  height: 90vh;
+}
+
+.hero .bg-image {
+  height: 100%;
+}
+
 /*Social Networks block*/
 .social-networks {
   background-image: url("src/assets/social_network_bg.jpg");
