@@ -21,7 +21,7 @@ function CertBanner() {
                 знания.</p>
               <p className="text-center"><small>Сертификат можно приобрести на любую сумму.</small></p>
             </div>
-            <button className="btn btn-info">Приобрести сертификат</button>
+            <button className="btn btn-primary">Приобрести сертификат</button>
           </div>
         </div>
       </div>
