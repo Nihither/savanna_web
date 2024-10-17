@@ -7,7 +7,15 @@ function App() {
     {
       path: "/",
       element: <Root />,
-    }
+      errorElement: <Error404 />,
+      children: [
+        {
+          path: "/children",
+          element: <Children />,
+        },
+      ]
+    },
+
   ]);
 
   return <RouterProvider router={router} />;
