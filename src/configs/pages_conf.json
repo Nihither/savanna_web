@@ -1,0 +1,29 @@
+{
+  "root": {
+    "page_title": "Английский начинается здесь"
+  },
+  "children": {
+    "page_title": "Детям"
+  },
+  "adult": {
+    "page_title": "Взрослым"
+  },
+  "chinese": {
+    "page_title": "Китайский язык"
+  },
+  "rki": {
+    "page_title": "РКИ"
+  },
+  "company": {
+    "page_title": "Компаниям"
+  },
+  "master_class": {
+    "page_title": "Мастер-классы"
+  },
+  "abcity": {
+    "page_title": "ABCity — настольная игра для детей от 5 лет."
+  },
+  "error404": {
+    "page_title": "Страница не найдена"
+  }
+}
