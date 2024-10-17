@@ -1,6 +1,6 @@
 /*Hero block*/
 .hero {
-  background-image: url("src/assets/hero_bg.jpg");
+  background-image: url("../assets/hero_bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -16,7 +16,7 @@
 
 /*Social Networks block*/
 .social-networks {
-  background-image: url("src/assets/social_network_bg.jpg");
+  background-image: url("../assets/social_network_bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
