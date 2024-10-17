@@ -6,7 +6,7 @@ function NavBar() {
   return (
   <nav className="navbar navbar-expand-lg bg-light sticky-top border-bottom border-1 border-dark-subtle">
     <div className="container">
-      <a className="navbar-brand" href="#">
+      <a className="navbar-brand" href="/">
         <img src={savanna_logo} alt="Savanna Logo" height="70"/>
       </a>
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -17,33 +17,33 @@ function NavBar() {
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto align-items-center">
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="/abcity">
                 <img src={abcity_logo} alt="ABCity Logo" height="70"/>
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Детям</a>
+              <a className="nav-link" href="/children">Детям</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Взрослым</a>
+              <a className="nav-link" href="/adult">Взрослым</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Китайский</a>
+              <a className="nav-link" href="/chineese">Китайский</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">РКИ</a>
+              <a className="nav-link" href="/rki">РКИ</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Компаниям</a>
+              <a className="nav-link" href="/company">Компаниям</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Мастер-классы</a>
+              <a className="nav-link" href="/masterclass">Мастер-классы</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Контакты</a>
+              <a className="nav-link" href="#contact-us">Контакты</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">ABCity</a>
+              <a className="nav-link" href="/abcity">ABCity</a>
             </li>
           </ul>
         </div>
