@@ -1,7 +1,8 @@
 import hero_bg from '../assets/hero_bg.jpg'
+import PropTypes from "prop-types";
 
 
-function Hero() {
+function Hero(props) {
   return (
     <div className="hero container-fluid p-0 position-relative">
       <div className="container-fluid p-0">
@@ -9,11 +10,15 @@ function Hero() {
       </div>
       <div className="container-fluid position-relative z-2 bg-black bg-opacity-50">
         <div className="content-block container d-flex align-items-center">
-          <h1 className="display-6 text-light text-center text-lg-start">Английский начинается здесь.</h1>
+          <h1 className="display-6 text-light text-center text-lg-start">{props.page_title}</h1>
         </div>
       </div>
     </div>
   );
+}
+
+Hero.propTypes = {
+  page_title: PropTypes.string,
 }
 
 export default Hero;
