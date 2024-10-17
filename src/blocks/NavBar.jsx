@@ -28,7 +28,7 @@ function NavBar() {
               <a className="nav-link" href="/adult">Взрослым</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/chineese">Китайский</a>
+              <a className="nav-link" href="/chinese">Китайский</a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="/rki">РКИ</a>
