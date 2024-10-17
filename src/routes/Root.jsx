@@ -8,6 +8,7 @@ import ContactUs from "../blocks/ContactUs.jsx";
 import Stuff from "../blocks/Stuff.jsx";
 import ChooseSavanna from "../blocks/ChooseSavanna.jsx";
 import SocialNetworks from "../blocks/SocialNetworks.jsx";
+import Subject from "../blocks/Subject.jsx";
 
 
 function Root () {
@@ -15,10 +16,10 @@ function Root () {
     <>
       <ContactsHeader/>
       <NavBar/>
-      <Hero/>
+      <Hero page_title={"Английский начинается здесь."}/>
       <FirstLessonBanner/>
       <CertBanner/>
-      <div className="vh-100 bg-dark"></div>
+      <Subject/>
       <ChooseSavanna/>
       <SocialNetworks/>
       <Stuff/>

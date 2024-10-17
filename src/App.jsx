@@ -1,5 +1,7 @@
 import {createBrowserRouter, RouterProvider} from "react-router-dom"
-import Root from './routes/root.jsx'
+import Root from './routes/Root.jsx'
+import Children from "./routes/Children.jsx";
+import Error404 from "./routes/Error404.jsx";
 
 
 function App() {
