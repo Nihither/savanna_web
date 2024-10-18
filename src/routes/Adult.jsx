@@ -19,7 +19,7 @@ function Adult() {
       <Hero page_title={p_conf.page_title}/>
       <FirstLessonBanner/>
       <Subject/>
-      <Stuff/>
+      <Stuff stuff_ids={p_conf.stuff_ids} />
       <ContactUs/>
       <Footer/>
     </>

@@ -20,7 +20,7 @@ function Children() {
       <FirstLessonBanner/>
       <Subject/>
       {/*TODO add master-class*/}
-      <Stuff/>
+      <Stuff stuff_ids={p_conf.stuff_ids}/>
       <ContactUs/>
       <Footer/>
     </>

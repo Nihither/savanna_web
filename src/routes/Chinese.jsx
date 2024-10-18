@@ -17,7 +17,6 @@ function Chinese() {
       <NavBar/>
       <Hero page_title={p_conf.page_title}/>
       <FirstLessonBanner/>
-      <Stuff/>
       <ContactUs/>
       <Footer/>
     </>

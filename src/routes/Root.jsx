@@ -25,7 +25,7 @@ function Root () {
       <Subject/>
       <ChooseSavanna/>
       <SocialNetworks/>
-      <Stuff/>
+      <Stuff stuff_ids={p_conf.stuff_ids}/>
       <ContactUs/>
       <Footer/>
     </>
