@@ -7,12 +7,12 @@ function ContactUs() {
   return (
     <div className="contact-us container-fluid bg-light" id="contact-us">
       <div className="container py-5">
+        <h1 className="display-5 mb-3 mb-lg-5 text-center">Как с нами связаться?</h1>
         <div className="row gx-5">
           <div className="col-lg-6 mb-3 mb-lg-0">
             <img src={contact_us} alt="contact us" className="card-img rounded"/>
           </div>
           <div className="col-lg-6 vstack gap-3">
-            <h2 className="mb-3">Как с нами связаться?</h2>
             <h5>Закажите обратный звонок</h5>
             <ContactForm/>
             <h5 className="mt-3">По телефону, в мессенджере или почте</h5>
