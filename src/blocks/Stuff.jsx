@@ -8,7 +8,11 @@ function Stuff(props) {
   const stuff_ids = props.stuff_ids;
   const stuff = stuff_ids.map((stuff_id) =>
     <div key={stuff_id.toString()} className="col">
-      <StuffCard key={stuff_id.toString()} name={stuff_data.stuff[stuff_id].name} role={stuff_data.stuff[stuff_id].role}/>
+      <StuffCard key={stuff_id.toString()}
+                 name={stuff_data.stuff[stuff_id].name}
+                 role={stuff_data.stuff[stuff_id].role}
+                 avatar={stuff_data.stuff[stuff_id].avatar}
+      />
     </div>
   )
 
