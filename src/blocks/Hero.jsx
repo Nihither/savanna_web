@@ -1,4 +1,4 @@
-import hero_bg from '../assets/hero_bg.jpg'
+import hero_bg from '../assets/backgrounds/hero_bg.jpg'
 import PropTypes from "prop-types";
 
 

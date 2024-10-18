@@ -1,4 +1,4 @@
-import cert_image from '../assets/certificate.jpg'
+import cert_image from '../assets/images/certificate.jpg'
 
 
 function CertBanner() {

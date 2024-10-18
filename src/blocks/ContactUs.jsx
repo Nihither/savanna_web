@@ -1,5 +1,5 @@
 import {FaPhoneAlt, FaWhatsapp, FaTelegramPlane} from "react-icons/fa";
-import contact_us from '../assets/contact_us.jpg'
+import contact_us from '../assets/images/contact_us.jpg'
 import ContactForm from './elements/ContactForm.jsx'
 
 

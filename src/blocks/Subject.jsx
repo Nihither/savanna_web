@@ -1,4 +1,4 @@
-import cert from '../assets/certificate.jpg';
+import cert from '../assets/images/certificate.jpg';
 
 
 function Subject() {

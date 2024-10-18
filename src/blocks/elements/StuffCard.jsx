@@ -1,4 +1,4 @@
-import contact_us from '../../assets/contact_us.jpg'
+import contact_us from '../../assets/images/contact_us.jpg'
 import PropTypes from "prop-types";
 
 

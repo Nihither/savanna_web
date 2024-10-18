@@ -1,4 +1,3 @@
-import social_network_bg from '../assets/social_network_bg.jpg'
 import {FaInstagram, FaVk} from "react-icons/fa6";
 
 
