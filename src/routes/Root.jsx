@@ -9,7 +9,7 @@ import ContactUs from "../blocks/ContactUs.jsx";
 import Stuff from "../blocks/Stuff.jsx";
 import ChooseSavanna from "../blocks/ChooseSavanna.jsx";
 import SocialNetworks from "../blocks/SocialNetworks.jsx";
-import Subject from "../blocks/Subject.jsx";
+import Subjects from "../blocks/Subjects.jsx";
 
 
 const p_conf = page_config.root;
@@ -22,7 +22,7 @@ function Root () {
       <Hero page_title={p_conf.page_title}/>
       <FirstLessonBanner/>
       <CertBanner/>
-      <Subject/>
+      <Subjects subjects={p_conf.subjects}/>
       <ChooseSavanna/>
       <SocialNetworks/>
       <Stuff stuff_ids={p_conf.stuff_ids}/>

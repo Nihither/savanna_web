@@ -3,10 +3,10 @@ import ContactsHeader from "../blocks/ContactsHeader.jsx";
 import NavBar from "../blocks/NavBar.jsx";
 import Hero from "../blocks/Hero.jsx";
 import FirstLessonBanner from "../blocks/FirstLessonBanner.jsx";
-import Subject from "../blocks/Subject.jsx";
 import Stuff from "../blocks/Stuff.jsx";
 import ContactUs from "../blocks/ContactUs.jsx";
 import Footer from "../blocks/Footer.jsx";
+import Subjects from "../blocks/Subjects.jsx";
 
 
 const p_conf = page_config.children;
@@ -18,7 +18,7 @@ function Children() {
       <NavBar/>
       <Hero page_title={p_conf.page_title}/>
       <FirstLessonBanner/>
-      <Subject/>
+      <Subjects subjects={p_conf.subjects}/>
       {/*TODO add master-class*/}
       <Stuff stuff_ids={p_conf.stuff_ids}/>
       <ContactUs/>
