@@ -5,8 +5,7 @@ import stuff_data from "../configs/stuff_data.json"
 
 function Stuff(props) {
 
-  const stuff_ids = props.stuff_ids;
-  const stuff = stuff_ids.map((stuff_id) =>
+  const stuff = props.stuff_ids.map((stuff_id) =>
     <div key={stuff_id.toString()} className="col">
       <StuffCard key={stuff_id.toString()}
                  name={stuff_data.stuff[stuff_id].name}
