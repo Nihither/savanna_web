@@ -21,3 +21,8 @@
   background-size: cover;
   background-attachment: fixed;
 }
+
+/*First lesson banner block*/
+.first-lesson-banner {
+  background-image: linear-gradient(120deg,  rgba(255, 236, 210, 0.8) 0%, rgba(252, 182, 159, 0.8) 100%);
+}
