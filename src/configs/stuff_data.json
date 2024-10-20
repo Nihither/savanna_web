@@ -4,73 +4,73 @@
       "id": 0,
       "name": "Савченко Анна",
       "role": "Автор проекта",
-      "avatar": "stuff0"
+      "avatar": "stuff0.jpg"
     },
     {
       "id": 1,
       "name": "Хруненкова Марина",
       "role": "Старший преподаватель",
-      "avatar": "stuff1"
+      "avatar": "stuff1.jpg"
     },
     {
       "id": 2,
       "name": "Поликарпова Екатерина",
       "role": "РКИ, Испанский язык",
-      "avatar": "stuff2"
+      "avatar": "stuff2.jpg"
     },
     {
       "id": 3,
       "name": "Татченкова Мария",
       "role": "Английский язык",
-      "avatar": "stuff3"
+      "avatar": "stuff3.jpg"
     },
     {
       "id": 4,
       "name": "Краева Ирина",
       "role": "Начальная школа, РКИ",
-      "avatar": "stuff4"
+      "avatar": "stuff4.jpg"
     },
     {
       "id": 5,
       "name": "Садырина Анастасия",
       "role": "Английский язык",
-      "avatar": "stuff5"
+      "avatar": "stuff5.jpg"
     },
     {
       "id": 6,
       "name": "Нефёдова Алёна",
       "role": "Математика",
-      "avatar": "stuff6"
+      "avatar": "stuff6.jpg"
     },
     {
       "id": 7,
       "name": "Беликова Кристина",
       "role": "Китайский язык",
-      "avatar": "stuff7"
+      "avatar": "stuff7.jpg"
     },
     {
       "id": 8,
       "name": "Утешева Дарья",
       "role": "Математика",
-      "avatar": "stuff8"
+      "avatar": "stuff8.jpg"
     },
     {
       "id": 9,
       "name": "Евтишенкова Мария",
       "role": "Английский язык",
-      "avatar": "stuff9"
+      "avatar": "stuff9.jpg"
     },
     {
       "id": 10,
       "name": "Черепанова Елизавета",
       "role": "Начальная школа",
-      "avatar": "stuff10"
+      "avatar": "stuff10.jpg"
     },
     {
       "id": 11,
       "name": "Савченко Алеся",
       "role": "Менеджер проекта",
-      "avatar": "stuff11"
+      "avatar": "stuff11.jpg"
     }
   ]
 }
