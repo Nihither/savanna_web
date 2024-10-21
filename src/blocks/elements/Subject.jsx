@@ -1,5 +1,6 @@
 import cert from '../../assets/images/certificate.jpg';
 import PropTypes from "prop-types";
+import Button from "./Button.jsx";
 
 
 function Subject(props) {
@@ -34,7 +35,7 @@ function Subject(props) {
           <div className="col-lg-6 col-md-6 my-5 py-5 px-5 text-start bg-body shadow rounded-end-3">
             <h1 className="mb-4">{title}</h1>
             {body}
-            <button className="btn btn-primary mt-2">Узнать подробнее</button>
+            <Button value="Узнать подробнее" />
           </div>
         </div>
       </div>
@@ -47,7 +48,7 @@ function Subject(props) {
           <div className="col-md-6 ps-3 text-start">
             <h1 className="mb-4">{title}</h1>
             {body}
-            <button className="btn btn-primary mt-2">Узнать подробнее</button>
+            <Button value="Узнать подробнее"/>
           </div>
         </div>
       </div>
@@ -61,7 +62,7 @@ function Subject(props) {
           <div className="col-lg-6 pt-3">
             <h1 className="mb-4">{title}</h1>
             {body}
-            <button className="btn btn-primary mt-2">Узнать подробнее</button>
+            <Button value="Узнать подробнее"/>
           </div>
         </div>
       </div>

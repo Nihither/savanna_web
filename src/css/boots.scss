@@ -1,7 +1,29 @@
 // Custom variables
-$savanna-color-primary: #EFD5D5;
-$savanna-color-secondary: #E3BEBE;
+$sa-primary: #efd5d5;
+$sa-secondary: #e3bebe;
 
+$custom-colors: (
+        "sa-primary": $sa-primary,
+        "sa-secondary": $sa-secondary,
+);
+
+// 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
+@import "../../node_modules/bootstrap/scss/functions";
+
+// 2. Include any default variable overrides here
+
+// 3. Include remainder of required Bootstrap stylesheets (including any separate color mode stylesheets)
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/variables-dark";
+
+// 4. Include any default map overrides here
+
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+// 5. Include remainder of required parts
+@import "../../node_modules/bootstrap/scss/maps";
+@import "../../node_modules/bootstrap/scss/mixins";
+@import "../../node_modules/bootstrap/scss/root";
 
 // Import bootstrap
 @import "../../node_modules/bootstrap/scss/bootstrap";

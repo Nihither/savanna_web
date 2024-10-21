@@ -1,5 +1,6 @@
 import config from '../../configs/secret.json';
 import {FaRegCheckCircle} from "react-icons/fa";
+import Button from "./Button.jsx";
 
 
 function ContactForm() {
@@ -89,7 +90,7 @@ function ContactForm() {
         </select>
       </div>
       <div className="mt-3 hstack gap-3">
-        <button type="submit" className="btn btn-primary">Отправить</button>
+        <Button type="submit" value="Отправить" />
         <h3 className="mb-1 d-none" id="sending-status-ok"><FaRegCheckCircle className="text-success"/></h3>
         <h5 className="mb-1 d-none text-danger" id="sending-status-error">Ошибка отправки</h5>
       </div>
