@@ -1,19 +1,31 @@
 import StuffCard from "./elements/StuffCard.jsx";
 import PropTypes from "prop-types";
 import stuff_data from "../configs/stuff_data.json"
+import StuffCardLarge from "./elements/StuffCardLarge.jsx";
 
 
 function Stuff(props) {
 
-  const stuff = props.stuff_ids.map((stuff_id) =>
-    <div key={stuff_id.toString()} className="col">
-      <StuffCard key={stuff_id.toString()}
-                 name={stuff_data.stuff[stuff_id].name}
-                 role={stuff_data.stuff[stuff_id].role}
-                 avatar={stuff_data.stuff[stuff_id].avatar}
-      />
-    </div>
-  )
+  let stuff;
+  if (props.stuff_ids.length === 1) {
+    const stuff_id = props.stuff_ids[0];
+    stuff =
+      <div key={stuff_id.toString()} className="col">
+        <StuffCardLarge key={stuff_id.toString()}
+                   stuff_card={stuff_data.stuff[stuff_id]}
+        />
+      </div>
+  } else {
+    stuff = props.stuff_ids.map((stuff_id) =>
+      <div key={stuff_id.toString()} className="col">
+        <StuffCard key={stuff_id.toString()}
+                   stuff_card={stuff_data.stuff[stuff_id]}
+        />
+      </div>
+    )
+  }
+
+
 
   return (
     <div className="stuff container-fluid py-4 bg-light">
