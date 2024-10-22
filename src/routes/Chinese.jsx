@@ -6,6 +6,7 @@ import FirstLessonBanner from "../blocks/FirstLessonBanner.jsx";
 import Stuff from "../blocks/Stuff.jsx";
 import ContactUs from "../blocks/ContactUs.jsx";
 import Footer from "../blocks/Footer.jsx";
+import Subjects from "../blocks/Subjects.jsx";
 
 
 const p_conf = page_config.chinese;
@@ -17,6 +18,8 @@ function Chinese() {
       <NavBar/>
       <Hero page_title={p_conf.page_title}/>
       <FirstLessonBanner/>
+      <Subjects subjects={p_conf.subjects}/>
+      <Stuff stuff_ids={p_conf.stuff_ids}/>
       <ContactUs/>
       <Footer/>
     </>
