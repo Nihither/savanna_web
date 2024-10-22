@@ -29,8 +29,8 @@ function Subject(props) {
       <div className="container d-none d-lg-block">
         <div className={"row d-flex " + dir_class}>
           <div className="col-lg-1 my-5 bg-body shadow rounded-start-3"></div>
-          <div className="col-lg-5 col-md-6 p-0">
-            <img src={cert} alt="" className="img-fluid rounded-3"/>
+          <div className="col-lg-5 col-md-6 p-0 position-relative">
+            <img src={cert} alt="" className="img-sa rounded-3 position-absolute" />
           </div>
           <div className="col-lg-6 col-md-6 my-5 py-5 px-5 text-start bg-body shadow rounded-end-3">
             <h1 className="mb-4">{title}</h1>

@@ -15,7 +15,7 @@ function NavBar() {
         <span className="navbar-toggler-icon"></span>
       </button>
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav ms-auto align-items-center">
+          <ul className="navbar-nav ms-auto align-items-center fw-semibold">
             <li className="nav-item">
               <a className="nav-link" href="/abcity">
                 <img src={abcity_logo} alt="ABCity Logo" height="70"/>
