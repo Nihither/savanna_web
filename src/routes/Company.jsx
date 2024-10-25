@@ -6,6 +6,7 @@ import FirstLessonBanner from "../blocks/FirstLessonBanner.jsx";
 import Stuff from "../blocks/Stuff.jsx";
 import ContactUs from "../blocks/ContactUs.jsx";
 import Footer from "../blocks/Footer.jsx";
+import Offers from "../blocks/Offers.jsx";
 
 
 const p_conf = page_config.company;
@@ -17,6 +18,7 @@ function Company() {
       <NavBar/>
       <Hero page_title={p_conf.page_title}/>
       <FirstLessonBanner/>
+      <Offers offers={p_conf.offers}/>
       <Stuff stuff_ids={p_conf.stuff_ids}/>
       <ContactUs/>
       <Footer/>
