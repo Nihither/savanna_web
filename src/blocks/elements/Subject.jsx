@@ -24,7 +24,7 @@ function Subject(props) {
   });
 
   return (
-    <div className="subject container-fluid py-5 bg-light">
+    <>
       {/*lg display block*/}
       <div className="container d-none d-lg-block">
         <div className={"row d-flex " + dir_class}>
@@ -66,7 +66,7 @@ function Subject(props) {
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }
 
