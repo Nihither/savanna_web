@@ -1,6 +1,7 @@
 import cert from '../../assets/images/certificate.jpg';
 import PropTypes from "prop-types";
 import Button from "./Button.jsx";
+import {buildCardBody} from "../../utils/reusedFunc.jsx";
 
 
 function Subject(props) {
@@ -8,20 +9,7 @@ function Subject(props) {
   const dir_class = (props.direction === "rth") ? "flex-lg-row" : "flex-lg-row-reverse";
 
   const title = props.subject.title;
-  const body = props.subject.body.map((item) => {
-    if (Array.isArray(item)) {
-      return (
-        // eslint-disable-next-line react/jsx-key
-        <ul className="text-start">
-          {/* eslint-disable-next-line react/jsx-key */}
-          {item.map((i) => <li>{i}</li>)}
-        </ul>
-      )
-    } else if (typeof item === "string") {
-      // eslint-disable-next-line react/jsx-key
-      return (<p>{item}</p>)
-    }
-  });
+  const body = buildCardBody(props.subject.body);
 
   return (
     <>
