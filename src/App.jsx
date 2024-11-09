@@ -7,6 +7,7 @@ import Chinese from "./routes/Chinese.jsx";
 import Rki from "./routes/Rki.jsx";
 import Company from "./routes/Company.jsx";
 import MasterClass from "./routes/MasterClass.jsx";
+import ABCity from "./routes/ABCity.jsx";
 
 
 function App() {
@@ -39,6 +40,10 @@ function App() {
     {
       path: "/masterclass",
       element: <MasterClass />,
+    },
+    {
+      path: "/abcity",
+      element: <ABCity />
     }
   ]);
 
