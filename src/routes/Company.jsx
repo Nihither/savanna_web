@@ -19,8 +19,8 @@ function Company() {
       <NavBar/>
       <Hero page_title={p_conf.page_title}/>
       <FirstLessonBanner/>
-      <Offers offers={p_conf.offers}/>
-      <SubjectsMini subjects={p_conf.subjects}/>
+      <Offers offers={p_conf.offers} section={p_conf.section}/>
+      <SubjectsMini subjects={p_conf.subjects} section={p_conf.section}/>
       <Stuff stuff_ids={p_conf.stuff_ids}/>
       <ContactUs/>
       <Footer/>

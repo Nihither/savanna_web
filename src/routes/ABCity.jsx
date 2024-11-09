@@ -18,7 +18,7 @@ function ABCity() {
       <NavBar />
       <Hero  page_title={p_conf.page_title}/>
       <GameDesc />
-      <GameParts  parts={p_conf.parts}/>
+      <GameParts  parts={p_conf.parts} section={p_conf.section}/>
       <ContactUs />
       <Footer />
     </>

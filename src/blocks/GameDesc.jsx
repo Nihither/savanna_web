@@ -1,4 +1,4 @@
-import cert from "../assets/images/certificate.jpg"
+import poster from "../assets/images/abcity/7000.jpg"
 
 
 function GameDesc() {
@@ -6,7 +6,7 @@ function GameDesc() {
     <div className="gameDesc">
       <div className="container-fluid py-4 bg-light">
         <div className="container">
-          <img src={cert} alt="" className="img-fluid"/>
+          <img src={poster} alt="" className="img-fluid"/>
           <div className="description py-5">
             <div className="vstack gap-3 text-center text-secondary">
               <p className="fs-5">ABCity -настольная игра, которая поможет выучить как пишутся и читаются первые английские слова. Это

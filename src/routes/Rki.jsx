@@ -18,7 +18,7 @@ function Rki() {
       <NavBar/>
       <Hero page_title={p_conf.page_title}/>
       <FirstLessonBanner/>
-      <Subjects subjects={p_conf.subjects}/>
+      <Subjects subjects={p_conf.subjects} section={p_conf.section}/>
       <Stuff stuff_ids={p_conf.stuff_ids}/>
       <ContactUs/>
       <Footer/>

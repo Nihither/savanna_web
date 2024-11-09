@@ -2,11 +2,13 @@ import PropTypes from "prop-types";
 import Subject from "./elements/Subject.jsx";
 
 
+// TODO Убрать кнопку с карточки
+
 function GameParts(props) {
 
   const parts = props.parts.map((part) =>
     <div className="subject container-fluid py-5 bg-light" key={part.id}>
-      <Subject subject={part} direction={(part.id % 2 === 0) ? "rth" : "lft"}/>
+      <Subject subject={part} direction={(part.id % 2 === 0) ? "rth" : "lft"} section={props.section}/>
     </div>
   );
 
@@ -19,6 +21,7 @@ function GameParts(props) {
 
 GameParts.propTypes = {
   parts: PropTypes.array.isRequired,
+  section: PropTypes.string.isRequired,
 }
 
 export default GameParts;

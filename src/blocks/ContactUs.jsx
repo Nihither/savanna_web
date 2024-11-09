@@ -3,6 +3,8 @@ import contact_us from '../assets/images/contact_us.jpg'
 import ContactForm from './elements/ContactForm.jsx'
 
 
+// TODO Добавить изменение изображения и title
+
 function ContactUs() {
   return (
     <div className="contact-us container-fluid bg-light" id="contact-us">

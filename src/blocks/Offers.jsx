@@ -5,8 +5,10 @@ import Offer from "./elements/Offer.jsx";
 function Offers(props) {
 
   const offers = props.offers.map((offer, index) =>
-    <Offer key={index} offer={offer} />
+    <Offer key={index} offer={offer}  section={props.section}/>
   )
+
+  // TODO Выровнять изображения
 
   return (
     <div className="offers">
@@ -26,6 +28,7 @@ function Offers(props) {
 
 Offers.propTypes = {
   offers: PropTypes.array.isRequired,
+  section: PropTypes.string.isRequired,
 }
 
 export default Offers;

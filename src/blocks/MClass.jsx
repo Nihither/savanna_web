@@ -7,7 +7,7 @@ function MClass(props) {
   const title = props.item.title;
   const desc = props.item.desc;
   const cards = props.item.cards.map((card, i) =>
-    <Card key={i} card={card} />
+    <Card key={i} card={card} section={props.section}/>
   )
 
   return (
@@ -23,6 +23,7 @@ function MClass(props) {
 
 MClass.propTypes = {
   item: PropTypes.object.isRequired,
+  section: PropTypes.string.isRequired,
 }
 
 export default MClass;

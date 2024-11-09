@@ -6,7 +6,7 @@ function SubjectsMini(props) {
 
   const subjects = props.subjects.map((subject) =>
     <div className="container-fluid py-5 bg-light" key={subject.id} >
-      <SubjectMini subject={subject} direction={(subject.id % 2 === 0) ? "rth" : "lft"}/>
+      <SubjectMini subject={subject} direction={(subject.id % 2 === 0) ? "rth" : "lft"} section={props.section}/>
     </div>
   )
 
@@ -19,6 +19,7 @@ function SubjectsMini(props) {
 
 SubjectsMini.propTypes = {
   subjects: PropTypes.array.isRequired,
+  section: PropTypes.string.isRequired,
 }
 
 export default SubjectsMini;

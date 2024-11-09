@@ -2,10 +2,12 @@ import MClass from "./MClass.jsx";
 import PropTypes from "prop-types";
 
 
+// TODO Выровнять изображения
+
 function MasterClasses(props) {
 
   const classes = props.classes.map((item, index) =>
-    <MClass key={index} item={item}/>
+    <MClass key={index} item={item} section={props.section} />
   )
 
   return (
@@ -17,6 +19,7 @@ function MasterClasses(props) {
 
 MasterClasses.propTypes = {
   classes: PropTypes.array.isRequired,
+  section: PropTypes.string.isRequired,
 }
 
 export default MasterClasses;

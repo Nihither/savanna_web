@@ -17,7 +17,7 @@ function MasterClass() {
       <ContactsHeader />
       <NavBar />
       <Hero  page_title={p_conf.page_title}/>
-      <MasterClasses classes={p_conf.classes}/>
+      <MasterClasses classes={p_conf.classes} section={p_conf.section}/>
       <MasterClassAddress />
       <ContactUs />
       <Footer />
