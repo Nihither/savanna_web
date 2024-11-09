@@ -18,7 +18,7 @@ function Hero(props) {
 }
 
 Hero.propTypes = {
-  page_title: PropTypes.string,
+  page_title: PropTypes.string.isRequired,
 }
 
 export default Hero;

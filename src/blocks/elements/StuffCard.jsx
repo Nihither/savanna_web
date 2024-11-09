@@ -16,7 +16,7 @@ function StuffCard(props) {
 }
 
 StuffCard.propTypes = {
-  stuff_card: PropTypes.object,
+  stuff_card: PropTypes.object.isRequired,
 }
 
 export default StuffCard;

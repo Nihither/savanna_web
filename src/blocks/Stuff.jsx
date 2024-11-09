@@ -40,7 +40,7 @@ function Stuff(props) {
 }
 
 Stuff.propTypes = {
-  stuff_ids: PropTypes.array,
+  stuff_ids: PropTypes.array.isRequired,
 }
 
 export default Stuff;

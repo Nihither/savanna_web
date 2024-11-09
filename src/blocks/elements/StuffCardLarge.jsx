@@ -18,7 +18,7 @@ function StuffCardLarge(props) {
 }
 
 StuffCardLarge.propTypes = {
-  stuff_card: PropTypes.object,
+  stuff_card: PropTypes.object.isRequired,
 }
 
 export default StuffCardLarge;

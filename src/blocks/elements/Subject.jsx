@@ -59,8 +59,8 @@ function Subject(props) {
 }
 
 Subject.propTypes = {
-  subject: PropTypes.object,
-  direction: PropTypes.string,
+  subject: PropTypes.object.isRequired,
+  direction: PropTypes.string.isRequired,
 }
 
 export default Subject;
