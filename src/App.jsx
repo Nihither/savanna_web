@@ -6,6 +6,7 @@ import Adult from "./routes/Adult.jsx";
 import Chinese from "./routes/Chinese.jsx";
 import Rki from "./routes/Rki.jsx";
 import Company from "./routes/Company.jsx";
+import MasterClass from "./routes/MasterClass.jsx";
 
 
 function App() {
@@ -35,6 +36,10 @@ function App() {
       path: "/company",
       element: <Company />,
     },
+    {
+      path: "/masterclass",
+      element: <MasterClass />,
+    }
   ]);
 
   return <RouterProvider router={router} />;
