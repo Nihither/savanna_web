@@ -8,8 +8,6 @@ function Offers(props) {
     <Offer key={index} offer={offer}  section={props.section}/>
   )
 
-  // TODO Выровнять изображения
-
   return (
     <div className="offers">
       <div className="container-fluid bg-light">

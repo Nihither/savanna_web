@@ -2,8 +2,6 @@ import MClass from "./MClass.jsx";
 import PropTypes from "prop-types";
 
 
-// TODO Выровнять изображения
-
 function MasterClasses(props) {
 
   const classes = props.classes.map((item, index) =>

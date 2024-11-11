@@ -3,6 +3,8 @@ import Button from "./Button.jsx";
 import {buildCardBody} from "../../utils/reusedFunc.jsx";
 
 
+// TODO добавить отображение кнопки + адрес ссылки
+
 function Subject(props) {
 
   const dir_class = (props.direction === "rth") ? "flex-lg-row" : "flex-lg-row-reverse";

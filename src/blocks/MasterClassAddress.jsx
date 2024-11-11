@@ -16,9 +16,8 @@ function MasterClassAddress() {
           </div>
           <div className="col-lg-6">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7900.7801084902185!2d30.209964556894594!3d59.98459204559956!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x469637f65e49cbd1%3A0x717e8dfceb56ca27!2sSavanna%20Kids%20Club!5e0!3m2!1sen!2sru!4v1731153081868!5m2!1sen!2sru"
-              width="100%" height="100%" allowFullScreen="" loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"></iframe>
+              src="https://yandex.ru/map-widget/v1/?display-text=savanna%20kids%20club&ll=30.216386%2C59.984369&mode=search&oid=203560656791&ol=biz&sctx=ZAAAAAgBEAAaKAoSCY9WtaSjUD5AEQgB%2BRIq%2BE1AEhIJcQD9vn%2Fz4z8R29yYnrDEzT8iBgABAgMEBSgKOABAAkgBagJydZ0BzczMPaABAKgBAL0BNQIdncIBBpe%2FpKn2BYICEXNhdmFubmEga2lkcyBjbHViigIAkgIAmgIMZGVza3RvcC1tYXBz&sll=30.216386%2C59.984369&sspn=0.031000%2C0.011547&text=savanna%20kids%20club&z=13.33"
+              width="100%" height="100%" allowFullScreen="true"></iframe>
           </div>
         </div>
       </div>
