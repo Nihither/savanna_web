@@ -1,5 +1,5 @@
 import cert_image from '../assets/images/certificate.jpg'
-import Button from "./elements/Button.jsx";
+import LinkButton from "./elements/LinkButton.jsx";
 
 
 function CertBanner() {
@@ -22,8 +22,7 @@ function CertBanner() {
                 знания.</p>
               <p className="text-center"><small>Сертификат можно приобрести на любую сумму.</small></p>
             </div>
-            {/*<button className="btn btn-sa-primary border-sa-secondary border-2">Приобрести сертификат</button>*/}
-            <Button className="" value="Приобрести сертификат" />
+            <LinkButton value="Приобрести сертификат"/>
           </div>
         </div>
       </div>

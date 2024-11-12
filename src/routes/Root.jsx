@@ -22,7 +22,7 @@ function Root () {
       <Hero page_title={p_conf.page_title}/>
       <FirstLessonBanner/>
       <CertBanner/>
-      <Subjects subjects={p_conf.subjects} section={p_conf.section}/>
+      <Subjects subjects={p_conf.subjects} section={p_conf.section} buttonValue={"Узнать подробнее"}/>
       <ChooseSavanna/>
       <SocialNetworks/>
       <Stuff stuff_ids={p_conf.stuff_ids}/>

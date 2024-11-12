@@ -1,4 +1,4 @@
-import Button from "./elements/Button.jsx";
+import LinkButton from "./elements/LinkButton.jsx";
 
 
 function FirstLessonBanner() {
@@ -10,7 +10,7 @@ function FirstLessonBanner() {
             <h1 className="display-5 text-center text-lg-start">Два первых урока по любой дисциплине бесплатно</h1>
           </div>
           <div className="col d-flex justify-content-center align-items-center">
-            <Button value="Записаться на первый урок"/>
+            <LinkButton value="Записаться на первый урок"/>
           </div>
         </div>
       </div>

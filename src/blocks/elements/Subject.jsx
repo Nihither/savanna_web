@@ -1,9 +1,7 @@
 import PropTypes from "prop-types";
-import Button from "./Button.jsx";
 import {buildCardBody} from "../../utils/reusedFunc.jsx";
+import LinkButton from "./LinkButton.jsx";
 
-
-// TODO добавить отображение кнопки + адрес ссылки
 
 function Subject(props) {
 
@@ -12,6 +10,7 @@ function Subject(props) {
   const title = props.subject.title;
   const image = (props.subject.image ? "src/assets/images/"+section+"/"+props.subject.image : "");
   const body = buildCardBody(props.subject.body);
+  const linkButton = <LinkButton value={props.buttonValue} link={props.link} />
 
   return (
     <>
@@ -25,7 +24,7 @@ function Subject(props) {
           <div className="col-lg-6 col-md-6 my-5 py-5 px-5 text-start bg-body shadow rounded-end-3">
             <h1 className="mb-4">{title}</h1>
             {body}
-            <Button value="Узнать подробнее" />
+            {linkButton}
           </div>
         </div>
       </div>
@@ -38,7 +37,7 @@ function Subject(props) {
           <div className="col-md-6 ps-3 text-start">
             <h1 className="mb-4">{title}</h1>
             {body}
-            <Button value="Узнать подробнее"/>
+            {linkButton}
           </div>
         </div>
       </div>
@@ -52,7 +51,7 @@ function Subject(props) {
           <div className="col-lg-6 pt-3">
             <h1 className="mb-4">{title}</h1>
             {body}
-            <Button value="Узнать подробнее"/>
+            {linkButton}
           </div>
         </div>
       </div>
@@ -64,6 +63,8 @@ Subject.propTypes = {
   subject: PropTypes.object.isRequired,
   section: PropTypes.string.isRequired,
   direction: PropTypes.string.isRequired,
+  buttonValue: PropTypes.string.isRequired,
+  link: PropTypes.string,
 }
 
 export default Subject;

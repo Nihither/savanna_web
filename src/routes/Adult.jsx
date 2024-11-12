@@ -18,7 +18,7 @@ function Adult() {
       <NavBar/>
       <Hero page_title={p_conf.page_title}/>
       <FirstLessonBanner/>
-      <Subjects  subjects={p_conf.subjects} section={p_conf.section}/>
+      <Subjects  subjects={p_conf.subjects} section={p_conf.section} buttonValue={"Записаться на первый урок"}/>
       <Stuff stuff_ids={p_conf.stuff_ids} />
       <ContactUs/>
       <Footer/>
