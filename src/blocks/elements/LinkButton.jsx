@@ -6,9 +6,10 @@ function LinkButton(props) {
 
   const value = props.value;
   const link = (props.link ? props.link : "#contact-us");
+  const displayButton = (props.displayButton === false ? "d-none" : "")
 
   return (
-    <a href={link}>
+    <a href={link} className={displayButton}>
       <Button value={value} />
     </a>
   );
@@ -16,7 +17,8 @@ function LinkButton(props) {
 
 LinkButton.propTypes = {
   link: PropTypes.string,
-  value: PropTypes.string.isRequired
+  value: PropTypes.string,
+  displayButton: PropTypes.bool,
 }
 
 export default LinkButton;
