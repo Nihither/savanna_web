@@ -1,4 +1,3 @@
-import config from '../../configs/secret.json';
 import {FaRegCheckCircle} from "react-icons/fa";
 import Button from "./Button.jsx";
 
@@ -11,7 +10,7 @@ function ContactForm() {
     const subject = document.getElementById("subjectInput").value;
     const message = `Новое сообщение с сайта\n\nИмя: ${name}\nТелефон: ${phone}\nЗапрос: ${subject}\n`;
     const params = {
-      chat_id: config.telegram.chat_id,
+      chat_id: import.meta.env.VITE_TELEGRAM_CHAT_ID,
       parse_mode: "html",
       text: message,
     }
@@ -38,7 +37,7 @@ function ContactForm() {
   async function handleSubmit(e) {
     e.preventDefault();
     setSendingInit();
-    const url = `https://api.telegram.org/${config.telegram.bot}/sendMessage`;
+    const url = `https://api.telegram.org/${import.meta.env.VITE_TELEGRAM_BOT}/sendMessage`;
     const data = setDataJson();
     fetch(url, {
       method: "POST",
