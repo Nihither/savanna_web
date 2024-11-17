@@ -7,19 +7,24 @@ import Stuff from "../blocks/Stuff.jsx";
 import ContactUs from "../blocks/ContactUs.jsx";
 import Footer from "../blocks/Footer.jsx";
 import Subjects from "../blocks/Subjects.jsx";
+import MClass from "../blocks/MClass.jsx";
 
-
-const p_conf = page_config.children;
 
 function Children() {
+
+  const p_conf = page_config.children;
+  const section = p_conf.section;
+
   return (
     <>
       <ContactsHeader/>
       <NavBar/>
       <Hero page_title={p_conf.page_title}/>
       <FirstLessonBanner/>
-      <Subjects subjects={p_conf.subjects} section={p_conf.section} buttonValue={"Записаться на первый урок"}/>
-      {/*TODO добавить секцию мастер-классов*/}
+      <Subjects subjects={p_conf.subjects} section={section} buttonValue={"Записаться на первый урок"}/>
+      <div className="container-fluid bg-light">
+        <MClass item={p_conf.masterclass} section={section}/>
+      </div>
       <Stuff stuff_ids={p_conf.stuff_ids}/>
       <ContactUs/>
       <Footer/>
