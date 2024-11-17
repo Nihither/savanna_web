@@ -1,4 +1,4 @@
-import cert_image from '../assets/images/certificate.jpg'
+import cert_image from '/assets/images/certificate.jpg'
 import LinkButton from "./elements/LinkButton.jsx";
 
 

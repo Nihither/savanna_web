@@ -1,5 +1,5 @@
-import abcity_logo from '../assets/logos/abcity_logo.svg'
-import savanna_logo from '../assets/logos/savanna_logo.svg'
+import abcity_logo from '/assets/logos/abcity_logo.svg'
+import savanna_logo from '/assets/logos/savanna_logo.svg'
 
 
 function NavBar() {

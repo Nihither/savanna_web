@@ -8,7 +8,7 @@ function Subject(props) {
   const dir_class = (props.direction === "rth") ? "flex-lg-row" : "flex-lg-row-reverse";
   const section = props.section;
   const title = props.subject.title;
-  const image = (props.subject.image ? "src/assets/images/"+section+"/"+props.subject.image : "");
+  const image = (props.subject.image ? "/assets/images/"+section+"/"+props.subject.image : "");
   const body = buildCardBody(props.subject.body);
   const linkButton =
     <LinkButton value={props.buttonValue} link={props.link} displayButton={props.displayButton}/>

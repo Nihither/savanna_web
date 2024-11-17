@@ -1,4 +1,4 @@
-import poster from "../assets/images/abcity/7000.jpg"
+import poster from "/assets/images/abcity/7000.jpg"
 
 
 function GameDesc() {

@@ -6,7 +6,7 @@ function Offer(props) {
 
   const title = props.offer.title;
   const section = props.section;
-  const image = (props.offer.image ? "src/assets/images/"+section+"/"+props.offer.image : "");
+  const image = (props.offer.image ? "/assets/images/"+section+"/"+props.offer.image : "");
   const body = buildCardBody(props.offer.body);
 
   return (

@@ -8,7 +8,7 @@ function ContactUs(props) {
   const title = props.contactUs ? props.contactUs.title : "Как с нами связаться?";
   const section = props.section ? props.section : "";
   const image = props.contactUs ?
-    "src/assets/images/"+section+"/"+props.contactUs.image : "src/assets/images/contact_us.jpg";
+    "/assets/images/"+section+"/"+props.contactUs.image : "/assets/images/contact_us.jpg";
 
   return (
     <div className="contact-us container-fluid bg-light" id="contact-us">

@@ -7,7 +7,7 @@ function Card(props) {
   const title = props.card.title ? props.card.title : "";
   const body = buildCardBody(props.card.body)
   const section = props.section;
-  const image = (props.card.image ? "src/assets/images/"+section+"/"+props.card.image : "");
+  const image = (props.card.image ? "/assets/images/"+section+"/"+props.card.image : "");
 
   return (
     <div className="col-lg-4">
