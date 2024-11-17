@@ -11,6 +11,7 @@ import GameParts from "../blocks/GameParts.jsx";
 function ABCity() {
 
   const p_conf = page_config.abcity;
+  const section = p_conf.section;
 
   return (
     <>
@@ -18,8 +19,8 @@ function ABCity() {
       <NavBar />
       <Hero  page_title={p_conf.page_title}/>
       <GameDesc />
-      <GameParts  parts={p_conf.parts} section={p_conf.section}/>
-      <ContactUs />
+      <GameParts  parts={p_conf.parts} section={section}/>
+      <ContactUs contactUs={p_conf.contactUs} section={section}/>
       <Footer />
     </>
   );

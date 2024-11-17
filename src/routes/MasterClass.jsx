@@ -11,15 +11,16 @@ import MasterClassAddress from "../blocks/MasterClassAddress.jsx";
 function MasterClass() {
 
   const p_conf = page_config.master_class;
+  const section = p_conf.section;
 
   return (
     <>
       <ContactsHeader />
       <NavBar />
       <Hero  page_title={p_conf.page_title}/>
-      <MasterClasses classes={p_conf.classes} section={p_conf.section}/>
+      <MasterClasses classes={p_conf.classes} section={section}/>
       <MasterClassAddress />
-      <ContactUs />
+      <ContactUs contactUs={p_conf.contactUs} section={section}/>
       <Footer />
     </>
   );

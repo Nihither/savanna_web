@@ -1,18 +1,22 @@
 import {FaPhoneAlt, FaWhatsapp, FaTelegramPlane} from "react-icons/fa";
-import contact_us from '../assets/images/contact_us.jpg'
 import ContactForm from './elements/ContactForm.jsx'
+import PropTypes from "prop-types";
 
 
-// TODO Добавить изменение изображения и title
+function ContactUs(props) {
 
-function ContactUs() {
+  const title = props.contactUs ? props.contactUs.title : "Как с нами связаться?";
+  const section = props.section ? props.section : "";
+  const image = props.contactUs ?
+    "src/assets/images/"+section+"/"+props.contactUs.image : "src/assets/images/contact_us.jpg";
+
   return (
     <div className="contact-us container-fluid bg-light" id="contact-us">
       <div className="container py-5">
-        <h1 className="display-5 mb-3 mb-lg-5 text-center">Как с нами связаться?</h1>
+        <h1 className="display-5 mb-3 mb-lg-5 text-center">{title}</h1>
         <div className="row gx-5">
           <div className="col-lg-6 mb-3 mb-lg-0">
-            <img src={contact_us} alt="contact us" className="card-img rounded"/>
+            <img src={image} alt="contact us" className="card-img rounded"/>
           </div>
           <div className="col-lg-6 vstack gap-3">
             <h5>Закажите обратный звонок</h5>
@@ -37,6 +41,11 @@ function ContactUs() {
       </div>
     </div>
   );
+}
+
+ContactUs.propTypes = {
+  contactUs: PropTypes.object,
+  section: PropTypes.string,
 }
 
 export default ContactUs;

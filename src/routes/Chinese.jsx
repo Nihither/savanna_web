@@ -9,18 +9,22 @@ import Footer from "../blocks/Footer.jsx";
 import Subjects from "../blocks/Subjects.jsx";
 
 
-const p_conf = page_config.chinese;
+
 
 function Chinese() {
+
+  const p_conf = page_config.chinese;
+  const section = p_conf.section;
+
   return (
     <>
       <ContactsHeader/>
       <NavBar/>
       <Hero page_title={p_conf.page_title}/>
       <FirstLessonBanner/>
-      <Subjects subjects={p_conf.subjects} section={p_conf.section} buttonValue={"Записаться на первый урок"}/>
+      <Subjects subjects={p_conf.subjects} section={section} buttonValue={"Записаться на первый урок"}/>
       <Stuff stuff_ids={p_conf.stuff_ids}/>
-      <ContactUs/>
+      <ContactUs contactUs={p_conf.contactUs} section={section}/>
       <Footer/>
     </>
   );

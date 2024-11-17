@@ -26,7 +26,7 @@ function Children() {
         <MClass item={p_conf.masterclass} section={section}/>
       </div>
       <Stuff stuff_ids={p_conf.stuff_ids}/>
-      <ContactUs/>
+      <ContactUs contactUs={p_conf.contactUs} section={section}/>
       <Footer/>
     </>
   );
